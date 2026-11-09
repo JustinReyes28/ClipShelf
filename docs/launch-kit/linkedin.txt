@@ -1,12 +1,12 @@
-SourceSpool v0.2.0 is available on npm.
+SourceSpool v0.2.1 is available on npm.
 
 Run npx sourcespool@latest, or install it permanently with npm install -g sourcespool.
 
 SourceSpool keeps the context with saved media: source URL, collection, tags and notes. Search those details later, preview filenames before saving, choose what to do with duplicates, and import/export catalogue metadata. Media files need their own backup.
 
-Requires Windows 11 x64, local NTFS storage and Node >=24.19.0 <25. First launch checks existing tools and offers yt-dlp/FFmpeg setup if needed, then asks you to choose a library folder.
+Requires Windows 11 x64, local NTFS storage and Node 22 or newer (Node 24 LTS recommended). First launch checks existing tools and offers yt-dlp/FFmpeg setup if needed, then asks you to choose a library folder.
 
-The app is MIT licensed; external tools retain their licenses. Yoinks inspired the terminal workflow. The code and sample media are original. Attached captures show the library workflow in the v0.2.0 checkout using a locally served sample.
+The app is MIT licensed; external tools retain their licenses. Yoinks inspired the terminal workflow. The code and sample media are original. Attached captures show the library workflow using a locally served sample.
 
 Code and setup: https://github.com/JustinReyes28/sourcespool
 Package: https://www.npmjs.com/package/sourcespool

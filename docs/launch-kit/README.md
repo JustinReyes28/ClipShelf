@@ -1,8 +1,8 @@
-# SourceSpool v0.2.0 posting kit
+# SourceSpool v0.2.1 posting kit
 
-Captions and workflow assets for the npm release. The images and video were recorded again from the v0.2.0 development checkout on 18 October 2026.
+Captions and workflow assets for the npm release. The images and video were recorded from the development checkout.
 
-Verified on 18 October 2026: v0.2.0 is available on npm, hosted verification passed, and PR #5 is merged. The GitHub v0.2.0 release has not been published. The captions announce npm availability; social posting stays with the owner. [Installation evidence](https://github.com/JustinReyes28/sourcespool/blob/main/docs/installation-phase-5.5.md).
+Verified on 18 October 2026: v0.2.0 is available on npm, hosted verification passed, and PR #5 is merged. PR #8 added Node 22+ runtime compatibility for v0.2.1. The GitHub releases are prepared; the captions announce npm availability, while social posting stays with the owner. [Installation evidence](https://github.com/JustinReyes28/sourcespool/blob/main/docs/installation-phase-5.5.md).
 
 [Download the posting-kit ZIP](sourcespool-v0.2.0-posting-kit.zip).
 
@@ -13,7 +13,7 @@ Verified on 18 October 2026: v0.2.0 is available on npm, hosted verification pas
 - [X](x.txt)
 - [LinkedIn](linkedin.txt)
 
-The captions cover `npx sourcespool@latest`, permanent npm installation and the library workflow. Requirements are Windows 11 x64, local NTFS storage and Node >=24.19.0 <25. First launch checks existing tools and offers setup if needed. [Installation guide](../installation.md).
+The captions cover `npx sourcespool@latest`, permanent npm installation and the library workflow. Requirements are Windows 11 x64, local NTFS storage and Node 22 or newer (Node 24 LTS recommended). First launch checks existing tools and offers setup if needed. [Installation guide](../installation.md).
 
 ## Attachments and alt text
 

@@ -2,16 +2,16 @@ TITLE
 SourceSpool: a Windows terminal library for saved media references, available on npm
 
 BODY
-SourceSpool v0.2.0 keeps saved clips with source URLs, collections, tags and notes, so you can search the context later.
+SourceSpool v0.2.1 keeps saved clips with source URLs, collections, tags and notes, so you can search the context later.
 
 Try it with:
 npx sourcespool@latest
 
-For a permanent installation, run npm install -g sourcespool, then sourcespool. You need Windows 11 x64, local NTFS storage and Node >=24.19.0 <25. First launch offers yt-dlp/FFmpeg setup if working tools are missing, then asks for a library folder.
+For a permanent installation, run npm install -g sourcespool, then sourcespool. You need Windows 11 x64, local NTFS storage and Node 22 or newer (Node 24 LTS recommended). First launch offers yt-dlp/FFmpeg setup if working tools are missing, then asks for a library folder.
 
-The library includes filename previews, duplicate choices and JSON metadata import/export. Exports contain metadata; media files need a separate backup. Existing v0.1.0 libraries remain compatible.
+The library includes filename previews, duplicate choices and JSON metadata import/export. Exports contain metadata; media files need a separate backup. Existing v0.1.0 and v0.2.0 libraries remain compatible.
 
-The attached captures from the v0.2.0 checkout show an original local sample saved with the note "Look at the reflections," then found through that note.
+The attached captures show an original local sample saved with the note "Look at the reflections," then found through that note.
 
 The app is MIT licensed and inspired by Yoinks; the application code and sample media are original. External tools keep their own licenses. This release handles one public item at a time; playlists and login/cookie downloads are excluded. Source availability depends on yt-dlp and the site.
 
