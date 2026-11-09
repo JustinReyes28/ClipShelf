@@ -1,19 +1,19 @@
 # SourceSpool v0.2.1 posting kit
 
-Captions and workflow assets for the npm release. The images and video were recorded from the development checkout.
+Captions and workflow assets for the npm release. This kit highlights SourceSpool's ability to **download public video and audio from the web (YouTube, Instagram, Facebook, Vimeo, TikTok, etc.)** and organize them into an indexed, searchable terminal reference library.
 
-Verified on 18 October 2026: v0.2.0 is available on npm, hosted verification passed, and PR #5 is merged. PR #8 added Node 22+ runtime compatibility for v0.2.1. The GitHub releases are prepared; the captions announce npm availability, while social posting stays with the owner. [Installation evidence](https://github.com/JustinReyes28/sourcespool/blob/main/docs/installation-phase-5.5.md).
+Verified on 18 October 2026: v0.2.1 is available on npm, hosted verification passed, PR #5 and PR #8 are merged, and the GitHub release is published. The captions announce npm availability, online media download support, and library workflow features; social posting stays with the owner. [Installation evidence](https://github.com/JustinReyes28/sourcespool/blob/main/docs/installation-phase-5.5.md).
 
 [Download the posting-kit ZIP](sourcespool-v0.2.0-posting-kit.zip).
 
 ## Captions
 
-- [General](general.txt)
-- [Reddit title and body](reddit.txt): paste them into separate fields and omit the labels.
-- [X](x.txt)
-- [LinkedIn](linkedin.txt)
+- [General](general.txt): versatile copy for blogs, newsletters, Discord or community forums.
+- [Reddit title and body](reddit.txt): structured post for r/commandline, r/selfhosted, or r/webdev (paste title and body into separate fields).
+- [X](x.txt): concise post under 280 weighted characters.
+- [LinkedIn](linkedin.txt): professional workflow overview for creators, editors, and researchers.
 
-The captions cover `npx sourcespool@latest`, permanent npm installation and the library workflow. Requirements are Windows 11 x64, local NTFS storage and Node 22 or newer (Node 24 LTS recommended). First launch checks existing tools and offers setup if needed. [Installation guide](../installation.md).
+The captions cover `npx sourcespool@latest`, permanent npm installation, online video/audio downloading via yt-dlp/FFmpeg, and offline library search. Requirements are Windows 11 x64, local NTFS storage and Node 22 or newer (Node 24 LTS recommended). First launch checks existing tools and offers setup if needed. [Installation guide](../installation.md).
 
 ## Attachments and alt text
 

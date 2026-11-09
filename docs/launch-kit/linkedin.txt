@@ -1,12 +1,23 @@
-SourceSpool v0.2.1 is available on npm.
+SourceSpool v0.2.1 is now available on npm: download and organize online media references directly from your Windows terminal.
 
-Run npx sourcespool@latest, or install it permanently with npm install -g sourcespool.
+For video editors, motion designers, creators, and researchers, reference clips downloaded from the web often end up scattered across Downloads folders with cryptic filenames and lost source links.
 
-SourceSpool keeps the context with saved media: source URL, collection, tags and notes. Search those details later, preview filenames before saving, choose what to do with duplicates, and import/export catalogue metadata. Media files need their own backup.
+SourceSpool provides a streamlined, keyboard-driven workflow:
+1. Paste a public media link from YouTube, Instagram, Facebook, Vimeo, TikTok, or other supported sites.
+2. Choose your format (high-resolution video or audio-only) with automatic stream merging via yt-dlp and FFmpeg.
+3. Add tags, personal notes, and organize into collections with predictable naming templates.
+4. Search and browse your entire library completely offline by title, source URL, tag, or note content.
+5. Prevent duplicates with URL and SHA-256 hash checks, and export portable catalogue metadata in clean JSON.
 
-Requires Windows 11 x64, local NTFS storage and Node 22 or newer (Node 24 LTS recommended). First launch checks existing tools and offers yt-dlp/FFmpeg setup if needed, then asks you to choose a library folder.
+Try it instantly without installation:
+npx sourcespool@latest
 
-The app is MIT licensed; external tools retain their licenses. Yoinks inspired the terminal workflow. The code and sample media are original. Attached captures show the library workflow using a locally served sample.
+Or install globally:
+npm install -g sourcespool
 
-Code and setup: https://github.com/JustinReyes28/sourcespool
-Package: https://www.npmjs.com/package/sourcespool
+Requires Windows 11 x64, local NTFS storage, and Node 22 or newer (Node 24 LTS recommended). Built-in guided setup installs verified yt-dlp/FFmpeg on first run.
+
+The app is open-source (MIT licensed) and inspired by Yoinks. Designed for single public media references (no login/cookie walls).
+
+Code and documentation: https://github.com/JustinReyes28/sourcespool
+npm package: https://www.npmjs.com/package/sourcespool

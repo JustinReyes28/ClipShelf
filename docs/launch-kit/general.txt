@@ -1,17 +1,24 @@
-SourceSpool v0.2.1 is available on npm: a Windows terminal library for saved video and audio references.
+Download public videos and audio from the web directly into an organized, searchable reference library with SourceSpool v0.2.1 (available now on npm).
 
-Try it:
+Paste a link from YouTube, Instagram, Facebook, Vimeo, TikTok, or hundreds of supported sites, pick your format (high-res video, audio-only, or stream merge), and save it alongside your notes, tags, collection, and the original source link.
+
+Try it instantly without installation:
 npx sourcespool@latest
 
-Or install it permanently:
+Or install permanently:
 npm install -g sourcespool
 sourcespool
 
-Keep the source link with each item, add tags and notes, and search them later. Organize collections, preview filenames before saving, choose what to do with duplicates, and import/export catalogue metadata. Media files need their own backup.
+Key features:
+• Web video & audio downloader: Paste any public media link to download and merge streams locally via yt-dlp and FFmpeg.
+• Automatic context: Keeps original source URLs, customizable collection folders, tags, and personal notes indexed together.
+• Offline search: Instant keyword search across titles, URLs, tags, and notes without internet access.
+• Smart duplicates: Detects identical URLs and SHA-256 hashes to prevent accidental duplicate downloads or file overwrites.
+• Portable metadata: Export and import your catalogue in clean, human-readable JSON.
 
-Requires Windows 11 x64, local NTFS storage and Node 22 or newer (Node 24 LTS recommended). First launch reuses working tools or offers yt-dlp/FFmpeg setup.
+Requires Windows 11 x64, local NTFS storage, and Node 22 or newer (Node 24 LTS recommended). First launch sets up verified yt-dlp and FFmpeg automatically.
 
-The app is MIT licensed; external tools retain their licenses. Inspired by Yoinks. The workflow images show an original local sample captured from the production checkout.
+The app is MIT licensed; external tools retain their licenses. Inspired by Yoinks. Public single-item videos only (no login/playlists).
 
-Code and setup: https://github.com/JustinReyes28/sourcespool
+Code & docs: https://github.com/JustinReyes28/sourcespool
 Package: https://www.npmjs.com/package/sourcespool

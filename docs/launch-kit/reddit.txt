@@ -1,19 +1,31 @@
 TITLE
-SourceSpool: a Windows terminal library for saved media references, available on npm
+SourceSpool: Download and organize public web videos (YouTube, Instagram, Facebook) into a searchable terminal library
 
 BODY
-SourceSpool v0.2.1 keeps saved clips with source URLs, collections, tags and notes, so you can search the context later.
+SourceSpool v0.2.1 is an open-source Windows terminal app that lets you download video and audio from the web and organize them into an indexed, searchable reference collection.
 
-Try it with:
+If you save reference clips, sound bites, or tutorials for creative work, they usually pile up in your Downloads folder with names like "videoplayback.mp4" while the source link and your notes get lost. SourceSpool fixes that by combining web media downloading with a structured, keyboard-driven reference catalogue.
+
+How to run it:
 npx sourcespool@latest
 
-For a permanent installation, run npm install -g sourcespool, then sourcespool. You need Windows 11 x64, local NTFS storage and Node 22 or newer (Node 24 LTS recommended). First launch offers yt-dlp/FFmpeg setup if working tools are missing, then asks for a library folder.
+Or install permanently:
+npm install -g sourcespool
+sourcespool
 
-The library includes filename previews, duplicate choices and JSON metadata import/export. Exports contain metadata; media files need a separate backup. Existing v0.1.0 and v0.2.0 libraries remain compatible.
+What it does:
+• Download online media: Paste a public video/audio URL from YouTube, Instagram, Facebook, Vimeo, TikTok, X, SoundCloud, etc. Powered by yt-dlp and FFmpeg under the hood.
+• Automatic formatting & merging: Choose video quality (MP4/MKV) or audio-only; separate high-res video/audio streams are merged automatically.
+• Context with every file: Tag clips, add notes (e.g. "Notice the lighting transition at 0:34"), and file into customizable collection folders (e.g. {collection}/{date}-{title}-{id}.mp4).
+• Instant offline search: Press 'L' to search through titles, original URLs, tags, and notes simultaneously.
+• Safe duplicate handling: Detects duplicate URLs or matching SHA-256 hashes; choose to keep the existing item or save another copy without overwriting.
+• Portable JSON metadata: Export your catalogue metadata anytime; media files stay in your own local folders.
 
-The attached captures show an original local sample saved with the note "Look at the reflections," then found through that note.
+Requirements: Windows 11 x64, local NTFS storage, and Node 22 or newer (Node 24 LTS recommended). On first launch, it checks for yt-dlp/FFmpeg and can set them up automatically in %LOCALAPPDATA%.
 
-The app is MIT licensed and inspired by Yoinks; the application code and sample media are original. External tools keep their own licenses. This release handles one public item at a time; playlists and login/cookie downloads are excluded. Source availability depends on yt-dlp and the site.
+Scope & boundaries: Works on public single-item videos and audio. Private accounts, login/cookie-gated videos, and whole playlists are excluded.
 
-Code and setup: https://github.com/JustinReyes28/sourcespool
-Package: https://www.npmjs.com/package/sourcespool
+MIT licensed, inspired by Yoinks. All code and sample media are original.
+
+GitHub: https://github.com/JustinReyes28/sourcespool
+npm: https://www.npmjs.com/package/sourcespool
